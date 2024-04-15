@@ -1,0 +1,23 @@
+{
+	"objects": [
+		{
+			"$find": [
+				{
+					"path": "identifier",
+					"value": "mwx-pullman-lw-wood-19xx"
+				}
+			],
+			"definition": {
+				"loadSlots": [
+					{
+						"$add": {
+							"maximumCapacity": 10.0,
+							"loadUnits": "Quantity",
+							"requiredLoadIdentifier": "workmen"
+						}
+					}
+				]
+			}
+		}
+	]
+}

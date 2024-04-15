@@ -1,0 +1,12 @@
+{
+  "manifestVersion": 5,
+  "id": "Tcave.TcavesMOWcarWorkmen",
+  "name": "T-cave's MOW-car Workmen",
+  "version": "1.0",
+  "requires": [
+    "Zamu.StrangeCustoms"
+  ],
+  "mixintos": {
+    "container:pb-pullman-lw-wood-19xx": "file(pb-pullman-lw-wood-19xx.json)"
+  }
+}
